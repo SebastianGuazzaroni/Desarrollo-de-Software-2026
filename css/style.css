@@ -1,0 +1,85 @@
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background-image:url('../img/background.jpg');
+    background-color:rgba(0, 0, 0 0.8);
+    background-blend-mode: darken;
+    
+}
+
+
+.nav-list {
+    
+    display: flex;
+    height: 45px;
+    background-color: rgb(4, 121, 255);
+    margin-top: 0;
+    margin-bottom: 0 ;
+
+}
+.cabeza {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.titulo{
+    display: flex;
+    font-size: 40px;
+    color: white;
+    width: 300px;
+    font-family: 'Franklin Gothic Medium';
+    align-self: center ;
+
+}
+
+
+.foto {
+    width: 300px;
+    height: 300px;
+    border-radius: 30%;
+    border: 2px solid darkblue;
+}   
+.title {
+    
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+
+
+}
+
+
+.introText {
+    display: flex;
+    width: 50%;    
+    font-size: 25px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+
+}
+
+.subtitulo {
+
+    color: white;
+}
+
+.sobre-mi{
+    color: white;
+}
+
+.skills {
+    display: flex;
+    color: white;
+    font-size: 30px;
+
+}
+
+.skills-list{
+    display: flex;
+
+    color:  white;
+}
