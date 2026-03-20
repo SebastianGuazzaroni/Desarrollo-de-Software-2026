@@ -1,35 +1,32 @@
 body{
+     font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
-    background-image:url('../img/background.jpg');
-    background-color:rgba(0, 0, 0 0.8);
+    background-image: url("../img/1.jpg");
+    background-color: rgba(0, 0, 0, 0.55);
     background-blend-mode: darken;
-    
 }
-
 
 .nav-list {
     
     display: flex;
     height: 45px;
-    background-color: rgb(4, 121, 255);
+    background-color: rgb(25, 25, 34);
     margin-top: 0;
     margin-bottom: 0;
-
 }
-.cabeza {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
 
+.sobreMi {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
 }
 .titulo{
-    display: flex;
     font-size: 40px;
     color: white;
-    width: 300px;
+    
     font-family: 'Franklin Gothic Medium';
     align-self: center ;
 
@@ -67,7 +64,7 @@ body{
     color: white;
 }
 
-.sobre-mi{
+.ingeniero{
     color: white;
 }
 
@@ -78,8 +75,8 @@ body{
 
 }
 
-.skills-list{
-    display: flex;
+.cajaSkills {
 
-    color:  white;
+    background-color: #690298;;
+    border-radius: 8%;
 }

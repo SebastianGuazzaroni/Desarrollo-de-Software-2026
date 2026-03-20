@@ -2,3 +2,6 @@
 Trabajo practico N° 1 Desarrollo de software
 Sitio web Portafolio de desarrollo 
 https://github.com/SebastianGuazzaroni/Trabajo-Practico-N1-DesarrolloDeSoftware.git
+
+
+El front del sitio web implementa en su mayoria bootstrap y algunas variables de css para cosas puntuales.
