@@ -5,7 +5,9 @@ body{
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
-    background-image: url("../img/1.jpg");
+    background-image: url("../img/imagen_convertida.jpg");
+        background-size: cover;
+        background-position: center;
     background-color: rgba(0, 0, 0, 0.55);
     background-blend-mode: darken;
 }
@@ -18,7 +20,10 @@ body{
     margin-top: 0;
     margin-bottom: 0;
 }
+.cabeza{
+    color: #cedc00;
 
+}
 .sobreMi {
     font-size: 20px;
     color: rgb(255, 255, 255);
@@ -32,6 +37,15 @@ body{
 
 }
 
+.expLab{
+    color: white;
+}
+
+.cajaProyectos{
+    background-blend-mode: darken;
+    border: 2px solid #cedc00;
+    border-radius: 8%;
+}
 
 .foto {
     width: 300px;
@@ -69,7 +83,7 @@ body{
 }
 
 .skills {
-    display: flex;
+    
     color: white;
     font-size: 30px;
 
@@ -77,6 +91,10 @@ body{
 
 .cajaSkills {
 
-    background-color: #690298;;
+    background-blend-mode: darken;
+    border: 2px solid #cedc00;
     border-radius: 8%;
+}
+.row {
+  margin-bottom: 40px;
 }
